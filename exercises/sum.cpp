@@ -6,3 +6,17 @@
   Insert the second number: 2
   Sum: 3
 */
+
+#include <iostream>
+using namespace std;
+int main(){
+	int a, b;
+	cout << "insert the first number:";
+	cin >> a;
+	cout << "insert the second number:";
+	cin >> b;
+	a = a+b;
+	cout << "Sum:" << a;
+	cout << "\n";
+	return 0;
+}
